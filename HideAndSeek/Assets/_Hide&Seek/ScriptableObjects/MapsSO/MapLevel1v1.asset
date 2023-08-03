@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aea085d4bf95b25448ef631bbf4e3cf1, type: 3}
+  m_Name: MapLevel1v1
+  m_EditorClassIdentifier: 
+  prefabWall: {fileID: 8763821188041164441, guid: 994bcc5b7f626ee4182bebb21bb3cf96, type: 3}
+  enemySpawnPos:
+  - {x: -5, y: 5, z: 0}
+  - {x: -5, y: -5, z: 0}
+  - {x: 5, y: 5, z: 0}
+  - {x: 5, y: -5, z: 0}
+  itemSpawnPos:
+  - {x: -2, y: 3.5, z: 0}
+  - {x: 2, y: -3.5, z: 0}
+  - {x: -6.5, y: -2, z: 0}
+  - {x: 6.5, y: 2, z: 0}
+  - {x: 4.5, y: 8, z: 0}
+  - {x: -4.5, y: -8, z: 0}
+  - {x: -8, y: 5, z: 0}
+  - {x: 8, y: -5, z: 0}
+  playerSpawnPos:
+  - {x: 2, y: 2, z: 0}
+  - {x: -2, y: -2, z: 0}
+  - {x: -8, y: 11, z: 0}
+  - {x: 8, y: -11, z: 0}
+  itemRefsSOs:
+  - {fileID: 11400000, guid: f6424f5041fd0c542a3c1b8d5773aaae, type: 2}
+  - {fileID: 11400000, guid: b0e75412402b29f4ab1e943e5deec9d4, type: 2}
+  wallsInfo:
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: ce41220f55bc358468b55a54c658717b, type: 2}
+    posX: -0
+    posY: 13.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: ce41220f55bc358468b55a54c658717b, type: 2}
+    posX: -0
+    posY: -13.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 14aa80a908bfa4d45bf820f7ffe0fe7c, type: 2}
+    posX: 10.5
+    posY: 0
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 14aa80a908bfa4d45bf820f7ffe0fe7c, type: 2}
+    posX: -10.5
+    posY: 0
+  - specialWall: 2
+    wallRefsSO: {fileID: 11400000, guid: f42b605aa42c29b4ca1f820e688ef9bb, type: 2}
+    posX: 0
+    posY: 0
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: b2775ecab44a89945a86b1734ff0e8e0, type: 2}
+    posX: 3.5
+    posY: 0
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 2727476697202ee4c881f5329b9c6a69, type: 2}
+    posX: 1.5
+    posY: 3.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: b2775ecab44a89945a86b1734ff0e8e0, type: 2}
+    posX: -3.5
+    posY: 0
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 2727476697202ee4c881f5329b9c6a69, type: 2}
+    posX: -1.5
+    posY: -3.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 5ff55eea8787bc44ba0a6e8397d770b3, type: 2}
+    posX: -4
+    posY: 6.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 5ff55eea8787bc44ba0a6e8397d770b3, type: 2}
+    posX: 4
+    posY: -6.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: b2775ecab44a89945a86b1734ff0e8e0, type: 2}
+    posX: 6.5
+    posY: -3
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: b2775ecab44a89945a86b1734ff0e8e0, type: 2}
+    posX: -6.5
+    posY: 3
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: ccd067d3313205149b8833caf729a774, type: 2}
+    posX: -6.5
+    posY: -5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: ccd067d3313205149b8833caf729a774, type: 2}
+    posX: 6.5
+    posY: 5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 594fa33a1b96036449a95bdb56150fd9, type: 2}
+    posX: 4
+    posY: 6.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 594fa33a1b96036449a95bdb56150fd9, type: 2}
+    posX: -4
+    posY: -6.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: f42b605aa42c29b4ca1f820e688ef9bb, type: 2}
+    posX: -7
+    posY: 2
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: f42b605aa42c29b4ca1f820e688ef9bb, type: 2}
+    posX: -7
+    posY: -6
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: f42b605aa42c29b4ca1f820e688ef9bb, type: 2}
+    posX: -10
+    posY: -2
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: f42b605aa42c29b4ca1f820e688ef9bb, type: 2}
+    posX: -10
+    posY: 6
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: f42b605aa42c29b4ca1f820e688ef9bb, type: 2}
+    posX: 10
+    posY: -6
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: f42b605aa42c29b4ca1f820e688ef9bb, type: 2}
+    posX: 10
+    posY: 2
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: f42b605aa42c29b4ca1f820e688ef9bb, type: 2}
+    posX: 7
+    posY: 6
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: f42b605aa42c29b4ca1f820e688ef9bb, type: 2}
+    posX: 7
+    posY: -2
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: f42b605aa42c29b4ca1f820e688ef9bb, type: 2}
+    posX: 7
+    posY: -2
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 17ebaa8756f2f454fa7c98ace6fcad85, type: 2}
+    posX: -7.5
+    posY: -8
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 17ebaa8756f2f454fa7c98ace6fcad85, type: 2}
+    posX: 7.5
+    posY: 8
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: d71369610f1e2f94e94777338a0c9bc8, type: 2}
+    posX: 4.5
+    posY: 11.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: d71369610f1e2f94e94777338a0c9bc8, type: 2}
+    posX: -4.5
+    posY: -11.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: d71369610f1e2f94e94777338a0c9bc8, type: 2}
+    posX: -1.5
+    posY: -8.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: d71369610f1e2f94e94777338a0c9bc8, type: 2}
+    posX: 1.5
+    posY: 8.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: d71369610f1e2f94e94777338a0c9bc8, type: 2}
+    posX: -1.5
+    posY: 11.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: d71369610f1e2f94e94777338a0c9bc8, type: 2}
+    posX: 1.5
+    posY: -11.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: d71369610f1e2f94e94777338a0c9bc8, type: 2}
+    posX: 4.5
+    posY: -8.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: d71369610f1e2f94e94777338a0c9bc8, type: 2}
+    posX: -4.5
+    posY: 8.5
+  winningPos: {x: 0, y: 0, z: 0}

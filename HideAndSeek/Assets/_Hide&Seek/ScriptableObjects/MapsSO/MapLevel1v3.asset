@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aea085d4bf95b25448ef631bbf4e3cf1, type: 3}
+  m_Name: MapLevel1v3
+  m_EditorClassIdentifier: 
+  prefabWall: {fileID: 8763821188041164441, guid: 994bcc5b7f626ee4182bebb21bb3cf96, type: 3}
+  enemySpawnPos:
+  - {x: 4, y: -8, z: 0}
+  - {x: -4, y: 8, z: 0}
+  - {x: 8, y: 6, z: 0}
+  - {x: -8, y: -6, z: 0}
+  itemSpawnPos:
+  - {x: 6.5, y: 0, z: 0}
+  - {x: -6.5, y: 0, z: 0}
+  - {x: 5, y: 8, z: 0}
+  - {x: -5, y: -8, z: 0}
+  - {x: -9, y: -3, z: 0}
+  - {x: 9, y: 3, z: 0}
+  playerSpawnPos:
+  - {x: -2, y: 2, z: 0}
+  - {x: 2, y: -2, z: 0}
+  itemRefsSOs:
+  - {fileID: 11400000, guid: f6424f5041fd0c542a3c1b8d5773aaae, type: 2}
+  - {fileID: 11400000, guid: b0e75412402b29f4ab1e943e5deec9d4, type: 2}
+  wallsInfo:
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: ce41220f55bc358468b55a54c658717b, type: 2}
+    posX: -0
+    posY: 13.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: ce41220f55bc358468b55a54c658717b, type: 2}
+    posX: -0
+    posY: -13.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 14aa80a908bfa4d45bf820f7ffe0fe7c, type: 2}
+    posX: 10.5
+    posY: 0
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 14aa80a908bfa4d45bf820f7ffe0fe7c, type: 2}
+    posX: -10.5
+    posY: 0
+  - specialWall: 2
+    wallRefsSO: {fileID: 11400000, guid: f42b605aa42c29b4ca1f820e688ef9bb, type: 2}
+    posX: 0
+    posY: 0
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 2727476697202ee4c881f5329b9c6a69, type: 2}
+    posX: 1.5
+    posY: -3.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 2727476697202ee4c881f5329b9c6a69, type: 2}
+    posX: -1.5
+    posY: 3.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: a33f196a25c04b540bc7ea4e4d07790f, type: 2}
+    posX: -3.5
+    posY: -1.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: a33f196a25c04b540bc7ea4e4d07790f, type: 2}
+    posX: 3.5
+    posY: 1.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 594fa33a1b96036449a95bdb56150fd9, type: 2}
+    posX: 1
+    posY: 6.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 594fa33a1b96036449a95bdb56150fd9, type: 2}
+    posX: -1
+    posY: -6.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3cac111bddadd6048a19c331f8faa04b, type: 2}
+    posX: 1.5
+    posY: -9.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 3cac111bddadd6048a19c331f8faa04b, type: 2}
+    posX: -1.5
+    posY: 9.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: b395c15bc4dcb364ba044c1ac6c94f64, type: 2}
+    posX: -6.5
+    posY: 5.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: b395c15bc4dcb364ba044c1ac6c94f64, type: 2}
+    posX: 6.5
+    posY: -5.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 2727476697202ee4c881f5329b9c6a69, type: 2}
+    posX: 5.5
+    posY: 1.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 2727476697202ee4c881f5329b9c6a69, type: 2}
+    posX: -5.5
+    posY: -1.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 2727476697202ee4c881f5329b9c6a69, type: 2}
+    posX: -8.5
+    posY: -4.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: 2727476697202ee4c881f5329b9c6a69, type: 2}
+    posX: 8.5
+    posY: 4.5
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: ccd067d3313205149b8833caf729a774, type: 2}
+    posX: 6.5
+    posY: 9
+  - specialWall: 0
+    wallRefsSO: {fileID: 11400000, guid: ccd067d3313205149b8833caf729a774, type: 2}
+    posX: -6.5
+    posY: -9
+  winningPos: {x: 0, y: 0, z: 0}
